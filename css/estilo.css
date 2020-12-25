@@ -1,0 +1,13 @@
+html,body{
+    max-height: 100%;
+    height: 100%;
+}
+
+#principal{
+    height: 100%;
+    
+}
+
+.conteudo{
+    text-align: center;
+}

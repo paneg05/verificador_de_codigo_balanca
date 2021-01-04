@@ -45,7 +45,7 @@
     produto ['manga tommy'] = Array('840')
 
     
-    
+
     
 
   
@@ -53,6 +53,7 @@
         
         var nome = document.getElementById('nome_produto').value
         nome_produto = nome.toLowerCase()
+        nome.trim()
         var posicao = produto.indexOf(nome_produto)
         
         document.getElementById('nome_produto1').value=produto[posicao]

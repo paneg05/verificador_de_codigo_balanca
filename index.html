@@ -35,19 +35,40 @@
       <div class="container align-self-center">
         <div class="row ">
           <div class="col-md-12 mx-auto text-center">         
-            <form id="nome_produto">
-              <input placeholder="nome do produto..." 
+            <form>
+              <input
+              onkeyup="recupera_produto()"
+              id="nome_produto"
+              placeholder="nome do produto..." 
               type="text"
               id="">
-              <input type="submit">
+              
             </form>
           </div>
 
 
-          <div class="container d-flex">
-            <div class="row align-self-center">
-              <div class="col-md-12">
-                <script src="js/verificador_codigo.js"></script>
+          <div class="container d-flex ">
+            <div class="row align-self-center mx-auto">
+              <div class="col-md-12 ">
+                <form class="mt-3">
+
+                  <input
+                  id="nome_produto1"
+                  placeholder="nome do produto"
+                  disabled
+                  type="text" >
+
+                  <br>
+
+                  <input
+                  id="codigo"
+                  placeholder="codigo do produto"
+                  disabled
+                  type="text">
+
+                </form>
+                
+                
               </div>
             </div>
           </div>
@@ -60,7 +81,7 @@
 
 
 
-
+    <script src="js/verificador_codigo.js"></script>
 
 
 

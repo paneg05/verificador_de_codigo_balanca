@@ -6,7 +6,7 @@
     'banana da terra','caqui','caqui chocolate','caqui rama forte','coco verde',
     'coco seco','cereja','graviola','grapefruit','goiaba','kiwi','laranja pera','laranja bahia',
     'laranja lima','lichia','limao','limao siciliano','lima da persia','maca gala',
-    'maca argentina','maca fuji','maca verde','mamo formosa','mamao papaya','manga espada',
+    'maca argentina','maca fuji','maca verde','mamao formosa','mamao papaya','manga espada',
     'manga tommy',)
     produto ['abacaxi'] = Array('102063')
     produto ['abacate'] = Array('284')
@@ -39,7 +39,7 @@
     produto ['maca argentina'] = Array('802')
     produto ['maca fuji'] = Array('4664')
     produto ['maca verde'] = Array('4671')
-    produto ['mamo formosa'] = Array('2752')
+    produto ['mamao formosa'] = Array('2752')
     produto ['mamao papaya'] = Array('819')
     produto ['manga espada'] = Array('694289')
     produto ['manga tommy'] = Array('840')
